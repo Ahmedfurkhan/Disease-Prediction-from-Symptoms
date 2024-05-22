@@ -72,5 +72,6 @@ iface = gr.Interface(
     [ NOTE: This app is meant for demo purposes only. Please consult a Doctor if you have any symptoms. ]"
 )
 
-iface.launch(server_name="192.168.1.10", server_port=7860, share=True)
+iface.launch(server_name="0.0.0.0", server_port=8080, share=True)
+
 
